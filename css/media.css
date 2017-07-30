@@ -1,0 +1,202 @@
+/*==========  Desktop First Method  ==========*/
+
+@media only screen and (max-width : 1350px) {
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1260px) {
+
+	
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.second{padding:70px 10px 0px;}
+	.first{
+		padding: 45px 15px 40px;
+	}
+	.bottom-line{padding:110px 0px 30px 15px;}
+	.menu li::after{display: none;}
+	.but_menu{display: inline-block;}
+	.menu{display: none;
+		z-index: 9999;
+		top:100%;
+		left:0;
+		right:0;
+		width: 100%;}
+
+	.menu li{display: block;
+		transition: all 0.5s;
+		margin-right: 0;
+		background-color: #63b945;
+		border-bottom: 1px solid #4c4c4c;}
+
+		.menu li.li_first{
+		border-top: 1px solid #4c4c4c;	
+		}
+
+		.menu li:hover{background-color: #fff;}
+
+		.menu li a{text-align: center;
+			padding:10px 0px;}
+
+
+	.top-line{padding:15px 15px 10px;}
+	.slider{margin-bottom: 150px;}
+	.slick-prev, .slick-next{top:111%;}
+	.slick-prev{left:130px;}
+	.slick-next{right:130px;}
+
+}
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.krugs{margin-bottom: 35px;}
+	.sit{margin-bottom: 40px;}
+	.wr_inp{margin-bottom: 35px;}
+	.wr_inp.last_wr{margin-bottom: 0;}
+	.probl{margin-bottom: 40px;}
+	.img{display: inline-block;}
+	.krug{margin-right: 0px;
+		display: block;
+		margin-bottom: 30px;
+	}
+	.krug.last{margin-bottom: 0;}
+			
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 890px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.bol_p2{margin-bottom: 20px;}
+	.list.sec p{padding-left: 0;}
+	.info a:first-child{margin-right: 0;}
+	.f_a{margin-bottom: 20px;}
+	.br_none{display: inline-block;}
+	.third{padding:50px 10px;}
+	.eight{padding:40px 15px;}
+	.any.sec{margin-top: 30px;}
+	.wrap1{margin-bottom: 20px;}
+	.reduse{margin-top: 20px;}
+	.seven .row.otst{margin-bottom: 40px;}
+	.seven h2{margin-bottom: 40px;}
+	.seven{text-align: center;
+		padding: 30px 0px;}
+	.info{margin-bottom: 20px;
+		text-align: center;}
+	.foto_bol{text-align: center;}
+	.four{padding:50px 15px 20px;}
+	.cont_bl.big{width: 100%;}
+	.cont_bl{float:none;
+		margin-bottom: 20px;
+		width: 100%;
+		text-align: center;}
+	.list p{padding-left: 0;}
+	.list span{position: static;}
+	.list{float:none;
+		width: 100%;
+		text-align: center;}
+	.first {
+    padding: 15px 15px 40px;
+}
+	.cont_1 .block:first-child{padding-top: 25px;}
+	.block{float:none;
+		text-align: center;
+		width: 100%;}
+	
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 650px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 530px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.send button{padding:10px 70px;}
+	form select, form input{font-size: 13px;}
+	footer p{padding:25px 0px 15px 20px;}
+	.slick-prev {
+    left: 30px;
+}
+.slick-next {
+    right: 30px;
+}
+  
+
+}
+
+@media only screen and (max-width : 430px) {
+}
+
+@media only screen and (max-width : 400px) {
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 481px) {
+	
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+
+
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+
+
+}
+
+
+	/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1201px) {
+	.menu{display: inline-block !important;}
+
+}
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+
+}
